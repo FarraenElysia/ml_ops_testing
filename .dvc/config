@@ -1,0 +1,4 @@
+[core]
+    remote = s3_testing
+['remote "s3_testing"']
+    url = s3://arn:aws:s3:eu-west-2:799002626640:accesspoint/testing
