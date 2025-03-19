@@ -8,6 +8,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 dvc = {extras = ["gdrive"], version = "^3.59.1"}
+pyopenssl = "^25.0.0"
+dvc-gdrive = "^3.0.1"
+minio = "^7.2.15"
 
 
 [build-system]
