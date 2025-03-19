@@ -2,6 +2,6 @@
     remote = minio
 ['remote "minio"']
     url = s3://bucket-name
-    endpointurl = localhost:9000
+    endpointurl = http://192.168.68.170:9000
     access_key_id = ml_testing
     secret_access_key = ml_testing
