@@ -1,4 +1,7 @@
 [core]
-    remote = s3
-['remote "s3"']
-    url = ../localhost:9000
+    remote = minio
+['remote "minio"']
+    url = s3://bucket-name
+    endpointurl = localhost:9000
+    access_key_id = ml_testing
+    secret_access_key = ml_testing
